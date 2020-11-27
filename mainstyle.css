@@ -1,0 +1,470 @@
+/* 
+    Created on : 28-Sep-2018, 07:43:11
+    Author     : ah
+*/
+
+@font-face {
+    font-family: Inconsolata;
+    src: url(Inconsolata-Regular.ttf);
+}
+
+.background1{
+    background-image: url("back.jpg");
+    margin: 10px;
+    background-repeat: no-repeat;
+    background-color: lightslategrey;
+    width: 100%;
+    margin: auto;
+}
+.main{
+font-family: Inconsolata;
+margin: 0px;
+width: 100%;    
+background-color: white;
+  
+}
+.main1{
+    height: 635px;
+    border-style: solid;
+    border-width: 1px;
+    border-top: 0px;
+    border-color: rgba(127,164,184, 1);
+    border-radius: 0px 0px 10px 10px;
+    
+}
+.main2{
+    border-style: solid;
+    border-width: 1px;
+    border-top: 0px;
+    border-color: rgba(127,164,184, 1);
+    border-radius: 0px 0px 10px 10px;
+}
+.main3{
+    border-style: solid;
+    border-width: 1px;
+    border-top: 0px;
+    border-color: rgba(127,164,184, 1);
+    bottom: 0;
+}
+
+.cvpgbrk{
+    
+    
+}
+
+.cvimgdiv1{
+    float: left;
+    width: 50%;
+    height:auto;
+    margin-top:10px;
+    margin-left:10px;
+    background-color: white;
+    box-shadow: 5px 5px 2px grey;
+    border: 1px black solid;
+    text-align:center;
+    padding: 0px;
+    border-color: rgba(127,164,184, 1);
+}
+
+.cvimgdiv2{
+    float: right;
+    width: 25%;
+    height:auto;
+    margin-top:10px;
+    margin-right:10px;
+    background-color: white;
+    box-shadow: 5px 5px 2px grey;
+    border: 1px black solid;
+    text-align:center;
+    padding: 0px;
+    border-color: rgba(127,164,184, 1);
+}
+
+.cvimgdiv3{
+    float: left;
+    width: 90%;
+    height:auto;
+    margin-top:10px;
+    margin-right:10px;
+    background-color: white;
+    box-shadow: 5px 5px 2px grey;
+    border: 1px black solid;
+    text-align:center;
+    padding: 0px;
+    border-color: rgba(127,164,184, 1);
+}
+
+.cvimgp1{
+   width: 200px;
+   margin: 0px;
+   padding: 0px;
+    
+    
+    
+}
+.cvimgp2{
+    width: 20px;
+    height: 20px;   
+   
+}
+ 
+   
+
+.ttext1 {
+    text-align: center;
+    background-color: white;
+    bottom:0;
+    margin-top:15px;
+    margin-bottom: 10px;
+    padding:0;
+}
+/*
+.sbartxt[type=text]{
+    text-align: center;
+    text-decoration: yellowgreen solid;
+    border-radius: 2px;
+    
+}
+*/
+
+.mcont1{
+    float: left;
+}
+.scont1{
+    margin:auto;
+    width: auto;
+    
+}
+.ttablediv {
+    float:right;
+    border-left:solid 1px;
+    border-bottom:solid 1px;
+    border-color: rgba(127,164,184, 1);
+}
+.ttable1 {
+    width:100%;
+    text-align: center;
+    border-color: rgba(128,128,128, 0.5);
+    color: rgba(65.9,65.9,65.9, 1);
+}
+    
+.ttable2 {
+    width:100%;
+    border: 1px solid;
+    border-color: black;
+    text-align: center;
+}
+.ttable3 {
+    margin-top: 50px;
+    width:100%;
+    text-align: center;
+    border-color: rgba(128,128,128, 0.5);
+    color: rgba(65.9,65.9,65.9, 1);
+}    
+
+.tstable1 {
+    
+    
+    border-color: white;
+    width:100%;
+    
+}
+
+.tstable2 {
+    border: 1px solid #ddd;
+    height:40px;
+    
+}
+.tstabletd {
+    background-color: rgba(161,200,200, 0.2);
+    width: 400px;
+}
+
+.wetable1 {
+    width: 100%;
+    text-align: left;
+    background-color: white;
+    border-collapse: collapse;
+    
+}
+.wetable2 {
+    border: 1px solid;
+    border-color: rgba(127,164,184, 1);
+    height:40px;
+    text-align:center;
+    border-left:hidden;
+    border-right:hidden;
+    
+}
+.wetable3 {
+    margin-bottom:499px;
+    width: 100%;
+    text-align: left;
+    background-color: white;
+    border-collapse: collapse;
+    border: 2px solid #ddd;
+}
+.wetabletd {
+    text-align: center;
+    background-color: white;
+    width: 37%;
+}
+.minfbt1{
+border-style: none;
+padding-left: 10px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-right: 10px;
+border-radius: 3px;
+color: black;
+text-align: center;
+text-decoration: none;
+font-size: 18px;
+transition: background-color 0.5s, width 0.5s;
+
+
+}
+    
+.minfbt1:hover{
+ background-color:  rgba(127,164,184, 1);
+ width: 400px;
+
+}
+
+
+
+.siframe {
+    height:50%;
+    width:100%;
+    margin: auto;
+    padding:0;
+    border: none;
+    border-radius: 5px;
+      
+
+}
+
+.siframediv {
+    width:95%;
+    margin:auto;
+    padding:0;
+    box-shadow: 2px 2px 2px 2px grey;
+    background-color:rgba(223,232,231, 0.2);
+    
+
+}
+
+.siframepg1 {
+    margin: auto;
+    text-align: center;
+    margin:0;
+    padding:0;
+    overflow:visible;
+    
+    
+    
+}
+
+   
+.sllif { 
+text-align: left;
+}
+
+.cvtxth1{
+    text-align: left;
+    padding: 10px;
+    
+}
+
+.cvtxtm1{
+    float:left;
+    width:55%;
+    margin-left: 30px;
+}
+.cvtxtm2{
+    float:left;
+    width:55%;
+    margin-left: 30px;
+}
+
+.cvtxtm3{
+    float:left;
+    width:55%;
+    margin-left: 30px;
+}
+
+
+
+.cvtxtbb1{
+    page-break-before: always;
+    color: white;
+    background-color:  rgba(127,164,184, 1);
+    text-align: left;
+    width:100%;
+    height: 50px;
+    margin:0px;
+    border-radius: 10px 10px 0px 0px;
+    padding-top:10px;
+}
+.cvtxtbb2{
+    page-break-before: always;
+    color: white;
+    background-color:  rgba(95,204,75,0.8);
+    text-align: left;
+    width:100%;
+    height: 50px;
+    margin:0px;
+    border-radius: 10px 10px 0px 0px;
+    padding-top:10px;
+}
+    .cvtxtbb3{
+    color: white;
+    background-color:  rgba(127,164,184, 1);
+    text-align: center;
+    width:100%;
+    height: 50px;
+    margin:0px;
+    border-radius: 10px 10px 0px 0px;
+    padding-top:10px;
+    font-style:italic;
+}   
+   
+.cvtxtbb4{
+    color: white;
+    background-color:  rgba(127,164,184, 1);
+    text-align: left;
+    width:100%;
+    height: 50px;
+    margin:0px;
+    padding-top:10px;
+}
+
+
+.cvtxtbb5{
+    float:left;
+    color: white;
+    background-color:  rgba(127,164,184, 1);
+    text-align: left;
+    width:100%;
+    height: 21px;
+    margin:0px;
+    padding-top:10px;
+}
+.cvtxtbb6{
+    color: white;
+    background-color:  rgba(95,204,75,0.8);
+    text-align: left;
+    width:100%;
+    height: 50px;
+    margin:0px;
+    border-radius: 0px 0px 10px 10px;
+    padding-top:10px;
+}
+.cvtxtbb{
+    color: white;
+    background-color:  rgba(127,164,184, 1);
+    text-align: left;
+    width:100%;
+    height: 50px;
+    margin:0px;
+    padding-top:10px;
+}
+
+
+.cvtxtlst1{
+    float:right;
+    background-color:  rgba(161,200,200, 0.2);
+    padding-bottom:5px;
+    height: 596px;
+    width: 40%;
+    border-radius: 0px 0px 10px 0px;
+    
+}
+.cvtxtlst2{
+    float:right;
+    background-color:  rgba(161,200,200, 0.2);
+    padding-bottom:5px;
+    height: 50%;
+    width: 40%;
+    
+}
+
+.cvlgimg1{
+    padding-top: 10px;
+    padding-left: 10px;
+    width:75px;
+  
+}
+.cvlgimg2{
+    padding-left: 10px;
+    width:75px;
+  
+}
+.cvlgpimg{
+    padding-right: 10px;
+    padding-left: 10px;
+    width:15px;
+  
+}
+
+.cvlgmimg{
+    padding-left: 10px;
+    width:36px;
+  
+}
+
+.cvlgsp{
+    width: 10px;
+    padding-top:4px;
+    padding-bottom:10px;
+    
+}    
+    .tspacediv{
+    float: left;
+    margin:200px
+    
+}
+.cvhsp{
+    padding:10px;
+    font-size:larger;
+}
+.cvhsp1{
+    padding:10px;
+    font-size:larger;
+}
+.cvhsp2{
+    float:right;
+    margin-right:8%;
+    padding:10px;
+    font-size:smaller;
+    font-style: italic;
+}
+
+.cvhsp3{
+    float:right;
+    margin-right:1%;
+    font-size:smaller;
+    font-style: italic;
+     background-color: white;
+     border-radius: 12px;
+     padding-bottom: 8px;
+}
+
+.cvpov{
+    float:left;
+    width:100%;
+    bottom:0;
+    margin-top:35px;
+}
+.cvpov1{
+    float:left;
+    width:100%;
+    margin-top:35px;
+}
+.cvskltxclr{
+    color: rgba(49,241,49, 1);
+}
+.cvmidhead{
+    float:left;
+    width:100%
+}
